@@ -11,16 +11,14 @@
   </head>
 
   <body>
-  <div class="main-layout">
-    <header>
-    Header
-    </header>
+    <div class="main-layout">
+      <%= render 'layouts/header' %>
       <main>
         <p class="notice"><%= notice %></p>
         <p class="alert"><%= alert %></p>
         <%= yield %>
       </main>
-    </body>
-    <footer>Footer</footer>
-  </div>
+      <footer>Footer</footer>
+    </div>
+  </body>
 </html>
