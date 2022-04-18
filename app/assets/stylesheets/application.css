@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+
+:root {
+  box-sizing: border-box;
+}
+
+*::before, *, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+
+.main-layout {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+header {
+  background-color: rgb(191, 145, 235);
+  min-height: 100px;
+}
+
+footer {
+  background-color: rgb(191, 145, 235);
+  min-height: 60px;
+}
