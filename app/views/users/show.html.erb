@@ -1,0 +1,5 @@
+<h3><%= @user.name %></h3>
+<h4>All Posts</h4>
+<% @user.posts.each do |post| %>
+  <%= render post %>
+<% end %>

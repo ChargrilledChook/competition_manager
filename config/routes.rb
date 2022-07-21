@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   root "static_pages#home"
 
   resources :posts, only: [:index, :show]
+  resources :users, only: [:index, :show]
 end
