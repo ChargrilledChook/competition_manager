@@ -1,0 +1,9 @@
+.main-container {
+  background-color: lightskyblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 120ch;
+  min-width: 120ch;
+  margin: 0 auto;
+ }

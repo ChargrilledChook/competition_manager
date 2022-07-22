@@ -1,0 +1,8 @@
+.main-nav {
+  background-color: lightseagreen;
+  min-height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2em;
+ }
