@@ -10,7 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_07_21_125850) do
+ActiveRecord::Schema[7.0].define(version: 2022_07_22_142407) do
+  create_table "games", force: :cascade do |t|
+    t.integer "first_player_id", null: false
+    t.integer "second_player_id", null: false
+    t.integer "first_player_score"
+    t.integer "second_player_score"
+    t.string "type"
+    t.boolean "complete", default: false, null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "matches", force: :cascade do |t|
     t.string "type"
     t.boolean "complete"
