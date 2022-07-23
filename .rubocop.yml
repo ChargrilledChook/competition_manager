@@ -1,0 +1,25 @@
+AllCops:
+  TargetRubyVersion: 3.1
+  ExtraDetails: true
+  DisplayStyleGuide: true
+  Include:
+    - Gemfile
+    - Rakefile
+    - config.ru
+    - lib/**/*.rake
+    - '**/*.rb'
+  Exclude:
+    - 'vendor/**/*'
+    - 'bin/*'
+    - 'node_modules/**/*'
+    - db/schema.rb
+  NewCops: enable
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
