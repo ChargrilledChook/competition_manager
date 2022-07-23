@@ -1,0 +1,18 @@
+.game-card {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid rgb(70, 70, 70);
+  border-radius: 8px;
+  padding: var(--space-m) var(--space-xxl);
+  font-size: var(--font-size-xl);
+  text-align: center;
+  background-color: var(--color-light);
+  gap: var(--space-s);
+  width: 100%;
+  box-shadow: 5px 5px #524e4e;
+}
+
+.game-card__item {
+  display: flex;
+  justify-content: space-between;
+}

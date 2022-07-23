@@ -1,0 +1,13 @@
+.button {
+  color: white;
+  font-weight: bold;
+  background-color: var(--color-tertiary);
+  border-radius: 8px;
+  font-size: var(--font-size-l);
+  padding: var(--space-s) var(--space-xl);
+}
+
+.button:hover {
+  background-color: var(--color-glint);
+  cursor: pointer;
+}

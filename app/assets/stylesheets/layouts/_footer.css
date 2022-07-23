@@ -1,4 +1,9 @@
 .main-footer {
   background-color: var(--color-primary);
   min-height: 4em;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-s);
  }

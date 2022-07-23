@@ -1,6 +1,5 @@
 <div class='game-card'>
-  <div>
-    <%= game.first_player.name %> vs <%= game.second_player.name %>
-    <%= game.first_player_score %> to <%= game.second_player_score %>
-  </div>
+    <div><%= game.first_player.name %> vs <%= game.second_player.name %></div>
+    <div><%= game.first_player_score || 0 %> to <%= game.second_player_score || 0 %></div>
+    <div><%= link_to "Game #{game.id}", game_path(game) %></div>
 </div>

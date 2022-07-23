@@ -21,9 +21,10 @@ body {
   min-height: 100%; */
 
   background-color: var(--color-background);
-  /* color: var(--color-text-body);
+  color: var(--color-text-body);
   line-height: var(--line-height-body);
-  font-family: var(--font-family-sans); */
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-m);
 }
 
 img,
@@ -40,7 +41,7 @@ select {
   font: inherit;
 }
 
-/* h1,
+h1,
 h2,
 h3,
 h4,
@@ -48,6 +49,7 @@ h5,
 h6 {
   color: var(--color-text-header);
   line-height: var(--line-height-headers);
+  font-family: var(--font-family-headers);
 }
 
 h1 {
@@ -71,9 +73,9 @@ a {
   text-decoration: none;
   transition: color 200ms;
 
-  &:hover,
+  /* &:hover,
   &:focus,
   &:active {
     color: var(--color-primary-rotate);
-  }
-} */
+  } */
+}
