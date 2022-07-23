@@ -1,4 +1,4 @@
 .main-footer {
-  background-color: lightsalmon;
+  background-color: var(--color-primary);
   min-height: 4em;
  }
