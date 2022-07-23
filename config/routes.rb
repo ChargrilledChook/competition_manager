@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   resources :posts, only: %i[index show]
   resources :users, only: %i[index show]
   resources :games, only: %i[index show]
+
+  get 'console', to: 'static_pages#console'
 end

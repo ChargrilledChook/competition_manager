@@ -13,17 +13,20 @@
   <body>
     <div class="main-wrapper">
       <nav class='main-nav'>
-        <div>
+        <div class='nav-item'>
           <%= link_to image_tag('pong_carl.png', class: 'image-container'), root_path %>
+          <h1>PONG</h1>
         </div>
-        <div>
-          Stuff
+        <div class='nav-item'>
+          <%= link_to 'Players', users_path, class: 'button' %>
+          <%= link_to 'Games', games_path, class: 'button' %>
         </div>
       </nav>
       <main class='main-container'>
         <%= yield %>
       </main>
       <footer class='main-footer'>
+        DWill 2022 <%= link_to image_tag('GitHub-Mark-Light-32px.png'), 'https://github.com/ChargrilledChook/competition_manager', target: '_blank' %>
       </footer>
     </div>
   </body>
